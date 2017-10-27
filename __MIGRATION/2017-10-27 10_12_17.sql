@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS `books` (
   CONSTRAINT `books_genre_foreign` FOREIGN KEY (`genre`) REFERENCES `genres` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table impulsis.books: ~4 rows (приблизно)
+-- Dumping data for table impulsis.books: ~5 rows (приблизно)
 DELETE FROM `books`;
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
 INSERT INTO `books` (`id`, `title`, `language`, `publication`, `isbn`, `image`, `created_at`, `updated_at`, `author`, `genre`) VALUES

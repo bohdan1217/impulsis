@@ -1,0 +1,112 @@
+.img{
+    display:none;
+    margin-left:-450px;
+    border: none;
+}
+.poster:hover .img{
+    display:block;
+    position:absolute;
+    z-index:9999;
+    border: none;
+}
+
+.poster td {
+    min-width: 150px;
+    max-width: 170px;
+}
+
+.img img {
+    width: 300px;
+    height: 200px;
+}
+
+.poster:hover{
+    color: blue;
+    cursor: default;
+}
+
+.link {
+    color: #636b6f;
+}
+
+.link:hover{
+    color: blue;
+}
+
+.img-detail img{
+    width: 150px;
+}
+
+
+.td-center td {
+    text-align: center;
+}
+
+.pencil-edit {
+    display:none;
+    float: right;
+}
+
+.poster:hover .pencil-edit{
+    display:inline-block;
+    float: right;
+}
+
+
+.header {
+    text-align: center;
+    background: url(../img/main.jpg) left top repeat;
+    padding: 200px 0;
+}
+
+.text-h1 {
+    color: white;
+    font-size: 54px;
+}
+
+.content {
+    background: #fafafa;
+}
+
+.new-book{
+    float: right;
+    margin-right: 20px;
+}
+
+.search-new-book {
+    margin: 0 10px 20px 20px;
+}
+
+.error-input {
+    border: 1px solid red !important;
+}
+
+.success-input {
+    border: 1px solid green !important;
+}
+
+label.error-input {
+    display: none !important;
+}
+
+
+.pagination {
+    display: inline-block;
+    text-align: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination .selected {
+    color: white;
+    background-color: red;
+}
+
+.div-center {
+    text-align: center;
+}
